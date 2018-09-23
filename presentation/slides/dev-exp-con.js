@@ -9,7 +9,7 @@ import {
 
 import UdigSlide from "./udig-slide";
 
-const DevExpPro = () => (
+const DevExpCon = () => (
   <UdigSlide header="Developer Experience">
     <Text italic textColor="tertiary">What needs work</Text>
     <List textColor="tertiary">
@@ -19,4 +19,4 @@ const DevExpPro = () => (
   </UdigSlide>
 );
 
-export default DevExpPro;
+export default DevExpCon;

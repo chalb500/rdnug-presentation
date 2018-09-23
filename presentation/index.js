@@ -22,6 +22,7 @@ import WebAssembly from "./slides/web-assembly";
 import Blazor from "./slides/blazor";
 import Strapi from "./slides/strapi";
 import DevExpPro from "./slides/dev-exp-pro";
+import DevExCon from "./slides/dev-exp-con";
 
 // Require CSS
 require("normalize.css");
@@ -46,6 +47,7 @@ export default class Presentation extends React.Component {
         <Blazor />
         <Strapi />
         <DevExpPro />
+        <DevExCon />
       </Deck>
     );
   }
