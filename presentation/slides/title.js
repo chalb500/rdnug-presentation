@@ -11,7 +11,7 @@ const Title = () => (
       Web Assembly, Blazor, and Magic
     </Heading>
     <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
-      UDig
+      UDig's Joe Fehrman and Cody Halbleib
     </Text>
   </Slide>
 );
