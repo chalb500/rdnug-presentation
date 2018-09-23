@@ -10,8 +10,8 @@ type ComponentProps = {
   children?: any
 };
 
-const UdigSlide = ({ header, children }: ComponentProps) => (
-  <Slide transition={["fade"]} bgColor="primary">
+const UdigSlide = ({ header, children, ...other }: ComponentProps) => (
+  <Slide transition={["fade"]} bgColor="primary" {...other}>
     <Heading size={1} fit caps lineHeight={1} textColor="secondary">
       {header}
     </Heading>
