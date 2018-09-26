@@ -23,6 +23,8 @@ import Blazor from "./slides/blazor";
 import Strapi from "./slides/strapi";
 import DevExpPro from "./slides/dev-exp-pro";
 import DevExCon from "./slides/dev-exp-con";
+import Demo from "./slides/demo";
+import Questions from "./slides/question-answer";
 
 // Require CSS
 require("normalize.css");
@@ -48,6 +50,8 @@ export default class Presentation extends React.Component {
         <Strapi />
         <DevExpPro />
         <DevExCon />
+        <Demo />
+        <Questions />
       </Deck>
     );
   }
