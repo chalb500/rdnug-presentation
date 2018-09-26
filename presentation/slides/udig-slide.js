@@ -12,7 +12,7 @@ type ComponentProps = {
 
 const UdigSlide = ({ header, children, ...other }: ComponentProps) => (
   <Slide transition={["fade"]} bgColor="primary" {...other}>
-    <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+    <Heading size={6} caps lineHeight={1} textColor="secondary">
       {header}
     </Heading>
     {children}

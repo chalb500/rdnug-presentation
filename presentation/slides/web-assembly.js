@@ -5,10 +5,10 @@ import {
 } from "spectacle";
 
 import UdigSlide from "./udig-slide";
-import backgroundImage from "../../assets/web_assembly.png";
+//import backgroundImage from "../../assets/web_assembly.png";
 
 const WebAssembly = () => (
-  <UdigSlide header="Web Assembly" bgImage={backgroundImage}>
+  <UdigSlide header="Web Assembly">
     <Text textColor="tertiary">Compile some of your favorite languages you use for native projects for client side web.</Text>
   </UdigSlide>
 );

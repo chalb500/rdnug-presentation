@@ -1,6 +1,7 @@
 // @flow
 import React from "react";
 import {
+  Text,
   List,
   ListItem
 } from "spectacle";
@@ -8,7 +9,8 @@ import {
 import UdigSlide from "./udig-slide";
 
 const Strapi = () => (
-  <UdigSlide header="Strapi the Headless CMS">
+  <UdigSlide header="Strapi">
+  <Text italic textColor="tertiary">The Headless CMS</Text>
     <List textColor="tertiary">
       <ListItem>We focused on learning Blazor</ListItem>
       <ListItem>Fast API creation</ListItem>

@@ -15,10 +15,10 @@ const styles = {
 const Title = () => (
   <Slide transition={["fade"]} bgImage={backgroundImage}>
     <div style={styles.adjustMainContent}>
-      <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+      <Heading size={6} caps lineHeight={1} textColor="secondary">
         Web Assembly, Blazor, and Magic
       </Heading>
-      <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
+      <Text margin="10px 0 0" textColor="tertiary" size={1}>
         UDig's Joe Fehrman and Cody Halbleib
       </Text>
     </div>
