@@ -15,6 +15,7 @@ const Strapi = () => (
       <ListItem>We focused on learning Blazor</ListItem>
       <ListItem>Fast API creation</ListItem>
       <ListItem>No custom code</ListItem>
+      <ListItem>Check Blazor interaction outside of .NET ecosystem</ListItem>
     </List>
   </UdigSlide>
 );

@@ -27,6 +27,7 @@ import Demo from "./slides/demo";
 import Questions from "./slides/question-answer";
 import Compatibility from "./slides/compatibility";
 import UseCases from "./slides/use-cases";
+import HelloWorld from "./slides/hello-world";
 
 // Require CSS
 require("normalize.css");
@@ -55,6 +56,7 @@ export default class Presentation extends React.Component {
         <DevExCon />
         <Demo />
         <UseCases />
+        <HelloWorld />
         <Questions />
       </Deck>
     );

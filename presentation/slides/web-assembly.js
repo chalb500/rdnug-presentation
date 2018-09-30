@@ -12,7 +12,7 @@ const WebAssembly = () => (
   <UdigSlide header="Web Assembly">
     <Text textColor="tertiary">Compile some of your favorite languages you use for native projects for client side web.</Text>
     <List textColor="tertiary">
-      <ListItem>Initiative to enable server-side code to execute in the browser</ListItem>
+      <ListItem>Initiative to enable traditionally server-side languages in the browser</ListItem>
       <ListItem>Binaries running the browser</ListItem>
       <ListItem>WebAssembly team pushing C and C++, other teams pushing other languages</ListItem>
     </List>

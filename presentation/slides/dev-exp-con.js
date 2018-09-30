@@ -15,7 +15,8 @@ const DevExpCon = () => (
     <List textColor="tertiary">
       <ListItem>Debugging</ListItem>
       <ListItem>Did not find a comprehensive Blazor tutorial</ListItem>
-      <ListItem>Oddities: models serialized to JSON are secretly subjected to toLower(), bracket placement</ListItem>
+      <ListItem>Oddities: models serialized to JSON are secretly subjected to toLower(), Auto-wiring to Activity Model instead of Activity page</ListItem>
+      <ListItem>The page metaphor leads to page development over component development</ListItem>
     </List>
   </UdigSlide>
 );
