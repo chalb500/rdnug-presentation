@@ -15,6 +15,7 @@ const DevExpCon = () => (
     <List textColor="tertiary">
       <ListItem>Debugging</ListItem>
       <ListItem>Did not find a comprehensive Blazor tutorial</ListItem>
+      <ListItem>Oddities: models serialized to JSON are secretly subjected to toLower(), bracket placement</ListItem>
     </List>
   </UdigSlide>
 );

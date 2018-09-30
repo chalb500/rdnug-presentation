@@ -25,6 +25,8 @@ import DevExpPro from "./slides/dev-exp-pro";
 import DevExCon from "./slides/dev-exp-con";
 import Demo from "./slides/demo";
 import Questions from "./slides/question-answer";
+import Compatibility from "./slides/compatibility";
+import UseCases from "./slides/use-cases";
 
 // Require CSS
 require("normalize.css");
@@ -45,12 +47,14 @@ export default class Presentation extends React.Component {
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
         <Title />
         <WebAssembly />
+        <Compatibility />
         <Razor />
         <Blazor />
         <Strapi />
         <DevExpPro />
         <DevExCon />
         <Demo />
+        <UseCases />
         <Questions />
       </Deck>
     );

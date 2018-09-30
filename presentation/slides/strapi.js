@@ -10,7 +10,7 @@ import UdigSlide from "./udig-slide";
 
 const Strapi = () => (
   <UdigSlide header="Strapi">
-  <Text italic textColor="tertiary">The Headless CMS</Text>
+    <Text italic textColor="tertiary">The Headless CMS</Text>
     <List textColor="tertiary">
       <ListItem>We focused on learning Blazor</ListItem>
       <ListItem>Fast API creation</ListItem>

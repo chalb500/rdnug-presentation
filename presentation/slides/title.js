@@ -4,13 +4,13 @@ import {
   Slide,
   Text
 } from "spectacle";
-import backgroundImage from '../../assets/title_background.png';
+import backgroundImage from "../../assets/title_background.png";
 
 const styles = {
   adjustMainContent: {
-    paddingLeft: '400px',
+    paddingLeft: "400px"
   }
-}
+};
 
 const Title = () => (
   <Slide transition={["fade"]} bgImage={backgroundImage}>
