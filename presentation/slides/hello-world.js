@@ -4,8 +4,7 @@ import React from "react";
 import {
   Text,
   List,
-  ListItem,
-  CodePane
+  ListItem
 } from "spectacle";
 
 import UdigSlide from "./udig-slide";
